@@ -1,0 +1,37 @@
+body {
+    font-family: Arial;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+}
+
+.profile-img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+ul {
+    padding-left: 20px;
+}
