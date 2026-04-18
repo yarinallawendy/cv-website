@@ -1,48 +1,52 @@
 body {
-    font-family: Arial;
-    background-color: #f4f4f4;
+font-family: Arial;
+background-color: #f4f4f4;
 }
 
 .container {
-    width: 800px;
-    margin: auto;
-    background: white;
-    padding: 20px;
-}
-
-.header {
-    text-align: center;
+width: 800px;
+margin: auto;
+background: white;
+padding: 20px;
 }
 
 .profile-img {
-    width: 150px;
-    border-radius: 50%;
+width: 150px;
+border-radius: 50%;
+display: block;
+margin: auto;
 }
 
 h1 {
-    color: #333;
+text-align: center;
 }
 
 h2 {
-    border-bottom: 2px solid #ddd;
-    padding-bottom: 5px;
+border-bottom: 2px solid #ddd;
+padding-bottom: 5px;
 }
 
 .section {
-    margin-top: 20px;
+margin-top: 20px;
 }
 
 ul {
-    padding-left: 20px;
+padding-left: 20px;
+}
+
 input, textarea {
-    width: 100%;
-    padding: 8px;
+width: 100%;
+padding: 8px;
 }
 
 button {
-    padding: 10px;
-    background-color: #333;
-    color: white;
-    border: none;
+padding: 10px;
+background-color: #333;
+color: white;
+border: none;
+cursor: pointer;
 }
+
+button:hover {
+background-color: #555;
 }
